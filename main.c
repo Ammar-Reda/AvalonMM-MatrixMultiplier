@@ -1,12 +1,6 @@
 /*
  * main.c
  *
- *  Created on: Apr 3, 2020
- *      Author: ammarreda
- */
-/*
- * main.c
- *
  *  Created on: Mar 28, 2020
  *      Author: ammarreda
  */
@@ -150,7 +144,7 @@ void mat_mult_hardware(alt_u32 *mat_a, alt_u32 *mat_b){
 		IOWR(AVALON_MAT_MULT_0_BASE, MAT_B_WR_OFT, (*(mat_b+i)) | (i<<8));
 	}
 
-	/* generate a 1—pulse */
+	/* generate a 1â€”pulse */
 	IOWR(AVALON_MAT_MULT_0_BASE, STRT_REG_OFT, 1);
 
 
