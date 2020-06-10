@@ -1,2 +1,2 @@
 # AvalonMM-MatrixMultiplier
-Matrix Multiplier with Avalon memory mapped slave interface
+Custom Matrix Multiplier IP with Avalon memory mapped slave interface.
